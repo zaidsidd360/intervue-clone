@@ -1,0 +1,8 @@
+{
+	"name": "intervue-clone",
+	"version": "1.0.0",
+	"description": "A clone of the intervue.io landing page",
+	"main": "/src/script.js",
+	"author": "Md Zaid Siddiqui",
+	"license": "MIT"
+}
