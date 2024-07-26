@@ -32,7 +32,10 @@
     <div class="hero-text">
       <h2>Technical Interview Resources</h2>
       <p>Find all the technical interview resources here</p>
-      <input type="text" placeholder="Search for resources here">
+      <div class="search">
+        <input type="text" placeholder="Search for resources here">
+        <img src="./src/assets/search.svg" alt="">
+      </div>
     </div>
     <div class="cards-container">
       <div class="card hide-on-mobile">
@@ -146,91 +149,93 @@
     </div>
   </section>
 
-  <!-- Security Section -->
-  <section class="security">
-    <h2>Security is our top priority</h2>
-    <p>Intervue serves startups to fortune 500 companies with enterprise grade security baked in by desing</p>
-    <div class="bento">
-      <div class="security-card">
-        <img class="security-img" src="./src/assets/key.svg" alt="">
-        <h3>Security</h3>
-        <p>Protecting your data at every layer is fundamental to how intervue works</p>
-        <img class="arrow-right" src="./src/assets/arrow-right.svg" alt="">
-      </div>
-      <div class="security-card">
-        <img class="security-img" src="./src/assets/stack.svg" alt="">
-        <h3>Complainces</h3>
-        <p>Enterprise grade compliance commitments where we have established controls to adhere to those commitments</p>
-        <img class="arrow-right" src="./src/assets/arrow-right.svg" alt="">
-      </div>
-      <div class="hide-on-mobile special">
-        <div>
+  <div class="secondary-bg">
+    <!-- Security Section -->
+    <section class="security">
+      <h2>Security is our top priority</h2>
+      <p>Intervue serves startups to fortune 500 companies with enterprise grade security baked in by desing</p>
+      <div class="bento">
+        <div class="security-card">
           <img class="security-img" src="./src/assets/key.svg" alt="">
+          <h3>Security</h3>
+          <p>Protecting your data at every layer is fundamental to how intervue works</p>
+          <img class="arrow-right" src="./src/assets/arrow-right.svg" alt="">
+        </div>
+        <div class="security-card">
+          <img class="security-img" src="./src/assets/stack.svg" alt="">
+          <h3>Complainces</h3>
+          <p>Enterprise grade compliance commitments where we have established controls to adhere to those commitments
+          </p>
+          <img class="arrow-right" src="./src/assets/arrow-right.svg" alt="">
+        </div>
+        <div class="hide-on-mobile special">
+          <div>
+            <img class="security-img" src="./src/assets/rocket.svg" alt="">
+            <h3>Intervue for Startups</h3>
+            <img class="arrow-right" src="./src/assets/arrow-right.svg" alt="">
+          </div>
+          <div>
+            <img class="security-img" src="./src/assets/globe.svg" alt="">
+            <h3>Intervue for Enterprises</h3>
+            <img class="arrow-right" src="./src/assets/arrow-right.svg" alt="">
+          </div>
+        </div>
+        <div class="show-on-mobile">
+          <img class="security-img" src="./src/assets/rocket.svg" alt="">
           <h3>Intervue for Startups</h3>
           <img class="arrow-right" src="./src/assets/arrow-right.svg" alt="">
         </div>
-        <div>
-          <img class="security-img" src="./src/assets/stack.svg" alt="">
+        <div class="show-on-mobile">
+          <img class="security-img" src="./src/assets/globe.svg" alt="">
           <h3>Intervue for Enterprises</h3>
           <img class="arrow-right" src="./src/assets/arrow-right.svg" alt="">
         </div>
       </div>
-      <div class="show-on-mobile">
-        <img class="security-img" src="./src/assets/key.svg" alt="">
-        <h3>Intervue for Startups</h3>
-        <img class="arrow-right" src="./src/assets/arrow-right.svg" alt="">
-      </div>
-      <div class="show-on-mobile">
-        <img class="security-img" src="./src/assets/stack.svg" alt="">
-        <h3>Intervue for Enterprises</h3>
-        <img class="arrow-right" src="./src/assets/arrow-right.svg" alt="">
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Testimonial Section -->
-  <section class="testimonial">
-    <div class="video">
-      <video src="https://dersyb7nfifdf.cloudfront.net/public/assets/videos/Yubi-Niket.mp4" controls></video>
-    </div>
-    <div class="content">
-      <p>After interviewing candidates on Intervue, we were able to convert at least 5% of people from our application
-        base to hires.</p>
-      <div class="name-designation">
-        <h3>Niket Gupta</h3>
-        <p>Group head of talent acquisition, Yubi</p>
+    <!-- Testimonial Section -->
+    <section class="testimonial">
+      <div class="video">
+        <video src="https://dersyb7nfifdf.cloudfront.net/public/assets/videos/Yubi-Niket.mp4" controls></video>
       </div>
-      <h3 class="view-more">See more customer stories <img src="./src/assets/arrow-right-blue.svg" alt=""></h3>
-    </div>
-  </section>
+      <div class="content">
+        <p>After interviewing candidates on Intervue, we were able to convert at least 5% of people from our application
+          base to hires.</p>
+        <div class="name-designation">
+          <h3>Niket Gupta</h3>
+          <p>Group head of talent acquisition, Yubi</p>
+        </div>
+        <h3 class="view-more">See more customer stories <img src="./src/assets/arrow-right-blue.svg" alt=""></h3>
+      </div>
+    </section>
 
-  <!-- Explore More Section -->
-  <section class="explore-more">
-    <div class="heading">
-      <h2>Explore more products on intervue</h2>
-    </div>
-    <div class="products">
-      <div class="product-card">
-        <img src="./src/assets/match-interview.jpg" alt="">
-        <h3>On-demand</h3>
-        <p>Save 90% of engineering & recruitment bandwidth, outsource candidate interviews to us</p>
-        <h4>Know more <img class="arrow-right-blue" src="./src/assets/arrow-right-blue.svg" alt=""></h4>
+    <!-- Explore More Section -->
+    <section class="explore-more">
+      <div class="heading">
+        <h2>Explore more products on intervue</h2>
       </div>
-      <div class="product-card">
-        <img src="./src/assets/live-interview.jpg" alt="">
-        <h3>Live interviews</h3>
-        <p>Assess candidates in real-time with our live coding environment & integrated video calls</p>
-        <h4>Know more <img class="arrow-right-blue" src="./src/assets/arrow-right-blue.svg" alt=""></h4>
+      <div class="products">
+        <div class="product-card">
+          <img src="./src/assets/match-interview.jpg" alt="">
+          <h3>On-demand</h3>
+          <p>Save 90% of engineering & recruitment bandwidth, outsource candidate interviews to us</p>
+          <h4>Know more <img class="arrow-right-blue" src="./src/assets/arrow-right-blue.svg" alt=""></h4>
+        </div>
+        <div class="product-card">
+          <img src="./src/assets/live-interview.jpg" alt="">
+          <h3>Live interviews</h3>
+          <p>Assess candidates in real-time with our live coding environment & integrated video calls</p>
+          <h4>Know more <img class="arrow-right-blue" src="./src/assets/arrow-right-blue.svg" alt=""></h4>
+        </div>
+        <div class="product-card">
+          <img src="./src/assets/assessments.jpg" alt="">
+          <h3>Assessments</h3>
+          <p>Share assessments across batches with MCQ, Programming and Subjective questions.</p>
+          <h4>Know more <img class="arrow-right-blue" src="./src/assets/arrow-right-blue.svg" alt=""></h4>
+        </div>
       </div>
-      <div class="product-card">
-        <img src="./src/assets/assessments.jpg" alt="">
-        <h3>Assessments</h3>
-        <p>Share assessments across batches with MCQ, Programming and Subjective questions.</p>
-        <h4>Know more <img class="arrow-right-blue" src="./src/assets/arrow-right-blue.svg" alt=""></h4>
-      </div>
-    </div>
-  </section>
-
+    </section>
+  </div>
   <!-- FAQ Section -->
   <section class="faq">
     <div class="faq-main">
@@ -285,15 +290,18 @@
         <div class="top">
           <img src="./src/assets/logo-white.svg" alt="">
           <div class="social">
-            <h4>Facebook</h4>
-            <h4>Instagram</h4>
-            <h4>Linkedin</h4>
-            <h4>Pinterest</h4>
+            <p>Facebook</p>
+            <p>Instagram</p>
+            <p>Linkedin</p>
+            <p>Pinterest</p>
           </div>
         </div>
         <div class="mail">
           <h2>Hire better & faster</h2>
-          <input type="email" placeholder="Enter your email address">
+          <div class="mail-input">
+            <input type="email" placeholder="Enter your email address">
+            <img src="./src/assets/arrow-top-right.svg" alt="">
+          </div>
         </div>
       </div>
       <div class="links-main">
@@ -347,7 +355,10 @@
         <img src="./src/assets/logo-white.svg" alt="">
         <div class="mail">
           <h2>Hire better & faster</h2>
-          <input type="email" placeholder="Enter your email address">
+          <div class="mail-input">
+            <input type="email" placeholder="Enter your email address">
+            <img src="./src/assets/arrow-top-right.svg" alt="">
+          </div>
         </div>
       </div>
       <div class="links">
