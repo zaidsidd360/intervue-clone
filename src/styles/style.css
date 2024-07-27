@@ -203,7 +203,7 @@ nav {
     --medium-tag: #f69d1d;
     --hard-tag: #50af55;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
@@ -647,6 +647,10 @@ nav {
       p {
         color: var(--text-primary);
         font-size: 1.1rem;
+      }
+
+      @media (max-width: 895px) {
+        width: 100%;
       }
     }
 
