@@ -213,7 +213,7 @@ nav {
       border: 1px solid var(--cards-border);
       border-radius: 0.7rem;
       width: 25vw;
-      padding: 1rem;
+      padding: 1.5rem;
 
       div {
         display: flex;
@@ -247,13 +247,14 @@ nav {
 
         p {
           margin-top: 0;
-          color: var(--text-tertiary)
+          color: var(--text-tertiary);
         }
       }
 
       p {
         margin-top: 0.5rem;
         color: var(--text-secondary);
+        line-height: 1.5rem;
       }
 
       @media (max-width: 995px) {
@@ -311,6 +312,7 @@ nav {
   p {
     margin-top: 1rem;
     max-width: 30vw;
+    line-height: 1.7rem;
   }
 
   @media (max-width: 995px) {
@@ -483,6 +485,7 @@ nav {
       max-width: 80%;
       font-size: 18px;
       color: var(--text-primary);
+      line-height: 1.7rem;
     }
   }
 
@@ -565,6 +568,7 @@ nav {
 
       p {
         color: var(--text-secondary);
+        line-height: 1.7rem;
       }
 
       .arrow-right-blue {
@@ -632,7 +636,7 @@ nav {
     }
 
     .faq-heading {
-
+      width: 30%;
 
       h1 {
         font-weight: 500;
@@ -642,6 +646,7 @@ nav {
 
       p {
         color: var(--text-primary);
+        font-size: 1.1rem;
       }
     }
 
